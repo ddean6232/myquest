@@ -22,7 +22,7 @@ const AgeQuestion = () => {
       return;
     }
     if (ageInt < 0) {
-      setMessage("Age can be negative");
+      setMessage("Age cannot be negative");
       return;
     }
     if (ageInt < 10) {
